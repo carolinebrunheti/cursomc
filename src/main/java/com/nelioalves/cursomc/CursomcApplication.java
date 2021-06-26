@@ -17,9 +17,9 @@ public class CursomcApplication implements CommandLineRunner {
 
 	@Autowired
 	private CategoriaRepository categoriaRepository;
-	
 	@Autowired
 	private ProdutoRepository produtoRepository;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(CursomcApplication.class, args);
 	}
